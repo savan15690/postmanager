@@ -18,6 +18,7 @@
     </div>
 </div>
 
+{{-- Comment for master branch --}}
 <div class="form-group row">
     {{ Form::label('tags', '*&nbsp;Tags', ['class' => 'col-sm-4 col-form-label text-md-right']) }}
     <div class="col-md-6">
