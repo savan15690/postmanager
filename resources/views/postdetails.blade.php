@@ -14,7 +14,7 @@
             <h1>{{ $postData->title }}</h1>
         </div>
         <div class="card-body">
-            <p class="card-text">{{ nl2br($postData->description) }}</p>
+            <p class="card-text">{!! nl2br($postData->description) !!}</p>
             @foreach ($postData->tags as $tags)
                 <span class="badge badge-pill badge-primary">{{ $tags->name }}</span>
             @endforeach
