@@ -12,7 +12,7 @@
 */
 
 // To home page (load login view)
-Route::get('/', 'UserController@loadLoginView');
+Route::get('/', 'PostController@index');
 
 // To load login view
 Route::get('/login', 'UserController@loadLoginView');
